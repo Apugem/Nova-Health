@@ -6,7 +6,7 @@ const {
 
 const router = express.Router();
 
-router.post("/", createAppointment);
 router.get("/", getAppointments);
+router.post("/", createAppointment);
 
 module.exports = router;
